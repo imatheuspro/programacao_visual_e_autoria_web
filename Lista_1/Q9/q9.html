@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Misturar palavras</title>
+    </head>
+    <body>
+        <form action="/misturar" method="post">
+            <fieldset>
+            <legend>Misturar palavras</legend>
+            <p>Digite duas palavras:</p>
+            <input type="text" name="p1" id="p1" required />
+            <input type="text" name="p2" id="p2" required />
+            <input id="resp"  readonly />
+            <button type="button" onclick="misturar()">Confirmar</button>
+            </fieldset>
+        </form>
+        <script src="q9.js"></script>
+    </body>
+</html>
