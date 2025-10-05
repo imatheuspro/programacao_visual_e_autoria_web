@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Calcular</title>
+    </head>
+    <body>
+        <form action="/calcular" method="post">
+            <fieldset>
+            <legend>Calcular</legend>
+            <p>Digite tres numeros:</p>
+            <input type="text" name="n1" id="n1" required />
+            <input type="text" name="n2" id="n2" required />
+            <input type="text" name="n3" id="n3" required />
+            <button type="button" onclick="calcular()">Confirmar</button>
+            </fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Soma</th>
+                        <th>Media</th>
+                        <th>Produto</th>
+                        <th>Maior</th>
+                        <th>Menor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td id="soma"></td>
+                    <td id="media"></td>
+                    <td id="produto"></td>
+                    <td id="maior"></td>
+                    <td id="menor"></td>
+                </tbody>
+            </table>
+        </form>
+        <script src="q10.js"></script>
+    </body>
+</html>
