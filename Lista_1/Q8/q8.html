@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Cadastro de CPF</title>
+    </head>
+    <body>
+        <form action="/cadastro" method="post">
+            <fieldset>
+            <legend>Cadastrar CPF</legend>
+            <p>Digite seu CPF com ". e -":</p>
+            <input type="text" name="cpf" id="cpf" placeholder="Ex. 123.456.789-00" required />
+            <p id="resp"></p>
+            <button type="button" onclick="verificarCpf()">Confirmar</button>
+            </fieldset>
+        </form>
+        <script src="q8.js"></script>
+    </body>
+</html>
