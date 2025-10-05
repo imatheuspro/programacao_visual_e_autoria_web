@@ -1,0 +1,9 @@
+.erro{
+    border: 2px solid red;
+}
+.span-requirido{
+    margin: 3px 0 0 1px;
+    font-size: 12px;
+    display: none;
+    color: brown;
+}

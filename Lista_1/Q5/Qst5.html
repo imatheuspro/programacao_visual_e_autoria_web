@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5</title>
+    <link rel="stylesheet" href="Style5.css">
+    <!-- 5) Crie um formulário com os campos para cadastrar o usuário de um sistema (login, senha e
+    confirmar senha).
+    Valide se todos os campos estiverem preenchidos, se os campos senha e confirma senha forem
+    guais e a senha possuir entre 6 e 10 caracteres.
+    Envie um alerta (alert) com a resposta.
+     -->
+</head>
+<body>
+    <form id="form" name="formulario">
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" id="Email" name="Email" class="inputs requirido" oninput="ValidarEmail()"> <br>
+            <span class="span-requirido"> Digite um email Valido</span>
+
+            <label for="Senha">Senha</label>
+            <input id="Senha" type="password" class="inputs requirido" oninput="ValidarSenha()"><br>
+            <span class="span-requirido"> A Senha deve ter de 6 a 10 caracteres</span>
+
+            <label for="Conf_Senha">Confirmar Senha</label>
+            <input id="ConfSenha" type="password" class="inputs requirido"oninput="compararSenha()">
+            <span class="span-requirido"> As senhas não são Compativeis</span>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+    
+    <Script src="Script5.js"></Script>
+</body>
+</html>
