@@ -1,4 +1,5 @@
 🚀 Passo a passo para rodar o projeto
+
 1️⃣ Instalar o Node.js
 
 Se você ainda não tem o Node.js instalado, baixe aqui:
