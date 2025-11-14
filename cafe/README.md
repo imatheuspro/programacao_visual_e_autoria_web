@@ -9,6 +9,7 @@ Se você ainda não tem o Node.js instalado, baixe aqui:
 Após instalar, abra o PowerShell ou Terminal e verifique:
 
 node -v
+
 npm -v
 
 
