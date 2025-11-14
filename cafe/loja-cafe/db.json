@@ -1,0 +1,84 @@
+{
+  "cafes": [
+    {
+      "title": "Cafe Espresso",
+      "description": "Café concentrado, com um sabor intenso e uma camada de espuma cremosa.",
+      "ingredients": ["Café"],
+      "price": 2.5,
+      "image": "https://conscienciacafe.com.br/wp-content/uploads/2023/09/cafe-espresso-maquina.jpg",
+      "id": 1
+    },
+    {
+      "title": "Latte",
+      "description": "Uma mistura cremosa de espresso e leite vaporizado, com uma fina camada de espuma por cima. Pode ser servido puro ou com sabores adicionais, como baunilha ou caramelo.",
+      "ingredients": ["Espresso", "Leite vaporizado"],
+      "price": 4.5,
+      "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800",
+      "id": 2
+    },
+    {
+      "title": "Cappuccino",
+      "description": "Feito com partes iguais de espresso, leite vaporizado e espuma de leite. Geralmente polvilhado com cacau em pó ou canela para um toque extra de sabor.",
+      "ingredients": ["Espresso", "Leite vaporizado", "Espuma de leite"],
+      "price": 4.0,
+      "image": "https://perfectdailygrind.com/wp-content/uploads/2019/11/Cappuccino-1.png",
+      "id": 3
+    },
+    {
+      "title": "Mocha",
+      "description": "Uma deliciosa combinação de espresso, leite vaporizado e chocolate, geralmente coberta com chantilly. É perfeito para quem gosta de um toque doce no café.",
+      "ingredients": ["Espresso", "Leite vaporizado", "Chocolate", "Chantilly"],
+      "price": 5.0,
+      "image": "https://perfectdailygrind.com/pt/wp-content/uploads/sites/5/2022/01/pexels-%D0%BA%D1%81%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BC%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B0-9823577-edited.jpg",
+      "id": 4
+    },
+    {
+      "title": "Café Gelado",
+      "description": "Café gelado preparado com café coado ou espresso, servido com gelo. Pode ser adoçado e misturado com leite ou creme, conforme a preferência.",
+      "ingredients": ["Café", "Gelo", "Leite (opcional)"],
+      "price": 3.5,
+      "image": "https://receitadaboa.com.br/wp-content/uploads/2024/09/cafe-gelado.jpg",
+      "id": 5
+    },
+    {
+      "title": "Café Americano",
+      "description": "É um espresso diluído em água quente, resultando em uma bebida mais suave do que um espresso puro, mas com sabor complexo.",
+      "ingredients": ["Café"],
+      "price": 2.5,
+      "image": "https://isamantillablog.wordpress.com/wp-content/uploads/2021/03/cafe_americano.jpg",
+      "id": 6
+    },
+    {
+      "title": "Macchiato",
+      "description": "Um espresso 'manchado' com uma pequena quantidade de leite vaporizado ou espuma de leite. Pode ser servido quente ou gelado.",
+      "ingredients": ["Espresso", "Leite vaporizado"],
+      "price": 3.0,
+      "image": "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Espresso-Macchiato.jpg",
+      "id": 7
+    },
+    {
+      "title": "Flat White",
+      "description": "Semelhante ao latte, mas com uma proporção maior de café para leite. É feito com espresso e leite vaporizado, resultando em uma bebida suave e cremosa.",
+      "ingredients": ["Espresso", "Leite vaporizado"],
+      "price": 4.0,
+      "image": "https://www.foodandwine.com/thmb/BzAPlKJh_Rg8bMsyBzTtFLqEqn8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Flat-White-FT-BLOG0523-b11f6273c2d84462954c2163d6a1076d.jpg",
+      "id": 8
+    },
+    {
+      "title": "Affogato",
+      "description": "Uma sobremesa italiana que combina uma bola de sorvete de baunilha com um espresso quente derramado por cima. Uma deliciosa mistura de quente e frio.",
+      "ingredients": ["Espresso", "Sorvete de baunilha"],
+      "price": 5.5,
+      "image": "https://cdn.loveandlemons.com/wp-content/uploads/2025/07/affogato-1-780x1024.jpg",
+      "id": 9
+    },
+    {
+      "title": "Pingado",
+      "description": "Bebida brasileira tradicional feita com um toque de café coado ou expresso e a maior parte de leite quente.",
+      "ingredients": ["Café coado", "Leite quente"],
+      "price": 2.0,
+      "image": "https://www.maquinascafeexpresso.com/wp-content/uploads/2019/07/quais-sao-caracteristicas-cafe-leite-2.jpg",
+      "id": 10
+    }
+  ]
+}
